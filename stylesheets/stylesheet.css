@@ -1,0 +1,29 @@
+.scales-box {
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 350px;
+}
+
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+  margin-left: 45%;
+  margin-right: 55%;
+  margin-top: 250px;
+}
+
+.equation-box {
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
+  margin-top: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 200px;
+}
