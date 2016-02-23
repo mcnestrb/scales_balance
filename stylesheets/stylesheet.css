@@ -1,9 +1,24 @@
+.top-box {
+  height: 350px;
+  border: solid 1px;
+}
+
+.weights-box {
+  width: 10%;
+  height: 350px;
+  display: inline-block;
+}
+
+.weights-box ul {
+  list-style-type: none;
+}
+
 .scales-box {
+  display: inline-block;
+  width: 80%;  
   border-width: 2px;
   border-color: #000000;
   border-style: solid;
-  margin-left: 10%;
-  margin-right: 10%;
   height: 350px;
 }
 
