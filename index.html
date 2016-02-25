@@ -7,10 +7,22 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/shapes.css" media="screen">
-    <script src="scalesjs.js"></script>
+    <!--<script src="scalesjs.js"></script>-->
 
   </head>
-  <body>
+
+  <script>
+    function drawScales() {
+      var canvas = document.getElementById('scalesCanvas');
+      if (canvas.getContext) {
+        var ctx = canvas.getContext('2d');
+        
+      } else {
+        alert('Canvas not supported');
+      }
+    }
+  </script>
+  <body onload="drawScales();">
     <div class="topBox">
 
       <div class="weightsBox">
@@ -24,7 +36,7 @@
 
       </div>
       
-      <canvas id="myScales"></canvas>
+      <canvas id="scalesCanvas"></canvas>
     </div>
     
     <div class="equationBox"></div>
