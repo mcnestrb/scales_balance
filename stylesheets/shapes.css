@@ -1,0 +1,40 @@
+#scales-crossbar {
+  width: 80%;
+  height: 7px;
+  background:black;
+  border-radius: 2px;
+  margin-left:10%;
+  margin-right: 5%;
+  margin-top: 243px;
+}
+
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+  margin-left: 45%;
+  margin-right: 55%;
+}
+
+#square-1kg {
+  width: 45px;
+  height: 45px;
+  background: green;
+  text-align: center;
+}
+
+#square-2kg {
+  width: 45px;
+  height: 45px;
+  background: blue;
+  text-align: center;
+}
+
+#square-3kg {
+  width: 45px;
+  height: 45px;
+  background: yellow;
+  text-align: center;
+}
