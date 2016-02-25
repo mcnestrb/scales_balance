@@ -7,27 +7,26 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/shapes.css" media="screen">
-    <script src="js/myjs.js"></script>
+    <script src="scalesjs.js"></script>
 
   </head>
   <body>
-    <div class="top-box">
+    <div class="topBox">
 
-      <div class="weights-box">
-        <ul>
+      <div class="weightsBox">
+
+        <ul class="weightsList">
           <li><img height="60px" width="45px" src="img/brown-egg.jpg"/></li>
-          <li><div id="square-1kg"><p>1kg<p></div></li>
-          <li><div id="square-2kg"><p>2kg<p></div></li>
-          <li><div id="square-3kg"><p>3kg<p></div></li>
+          <li><div id="square1kg"><p>1kg<p></div></li>
+          <li><div id="square2kg"><p>2kg<p></div></li>
+          <li><div id="square3kg"><p>3kg<p></div></li>
         </ul>
-      </div>
 
-      <div class="scales-box">
-        <div id="scales-crossbar"></div>
-        <div id="triangle-up"></div>
       </div>
+      
+      <canvas id="myScales"></canvas>
     </div>
     
-    <div class="equation-box"></div>
+    <div class="equationBox"></div>
   </body>
 </html>

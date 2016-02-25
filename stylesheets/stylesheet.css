@@ -1,22 +1,28 @@
-.top-box {
+.topBox {
   height: 350px;
 }
 
-.weights-box {
+.weightsBox {
   width: 10%;
   height: 350px;
   display: inline-block;
 }
 
-.weights-box ul {
+.weightsList {
   list-style-type: none;
 }
 
-.weights-box ul li {
+.weightsList li {
   margin-bottom: 40px;
 }
 
-.scales-box {
+#myScales {
+  width:80%;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.scalesBox {
   display: inline-block;
   width: 80%;  
   border-width: 2px;
@@ -25,11 +31,11 @@
   height: 350px;
 }
 
-.equation-box {
+.equationBox {
   border-width: 1px;
   border-color: #000000;
   border-style: solid;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-left: 10%;
   margin-right: 10%;
   height: 200px;
